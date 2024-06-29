@@ -1,0 +1,109 @@
+body {
+    background-color: lightblue;
+    font-family: Arial, sans-serif;
+}
+
+.formulario_produto {
+    margin: auto;
+    padding: 20px;
+    max-width: 45%;
+    min-width: 45%;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    margin-top: 5%;
+}
+
+.conteudo_formulario_produto {
+    padding: 20px;
+}
+
+.box-user {
+    margin-bottom: 20px;
+}
+
+.box-user label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.box-user input,
+.box-user select,
+.box-user textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+
+@media (max-width: 1200px) {
+    .formulario_produto {
+        margin: 20px;
+        padding: 10px;
+    }
+
+    .conteudo_formulario_produto {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 800px) {
+    .formulario_produto {
+        margin: 10px;
+        padding: 5px;
+    }
+
+    .conteudo_formulario_produto {
+        padding: 5px;
+    }
+
+    .box-user input,
+    .box-user select,
+    .box-user textarea {
+        padding: 8px;
+    }
+
+    input[type="submit"] {
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 600px) {
+    .formulario_produto {
+        margin: 5px;
+        padding: 2px;
+    }
+
+    .conteudo_formulario_produto {
+        padding: 2px;
+    }
+
+    .box-user input,
+    .box-user select,
+    .box-user textarea {
+        padding: 5px;
+    }
+
+    input[type="submit"] {
+        padding: 8px 12px;
+        font-size: 12px;
+    }
+}

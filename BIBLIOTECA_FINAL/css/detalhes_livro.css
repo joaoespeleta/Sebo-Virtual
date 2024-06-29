@@ -1,0 +1,42 @@
+.detalhes-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f4f4f4;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.detalhes-container h2 {
+    margin-top: 0;
+}
+
+.detalhes-container p {
+    margin: 10px 0;
+}
+
+.btn-group {
+    display: flex;
+    gap: 10px;
+}
+
+.btn-group button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn-excluir {
+    background-color: red;
+}
+
+.btn-editar {
+    background-color: blue;
+}
+
+.btn-carrinho {
+    background-color: green;
+}
